@@ -39,8 +39,6 @@ def play_game():
             print(f"Choose a number between 1 and {maximum}.")
             continue
 
-        attempts += 1
-
         if guess == secret_number:
             score = (max_attempts - attempts + 1) * 100
             print(f"\n🎉 Correct! You got it in {attempts} attempts.")
